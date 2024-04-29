@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://t3.ftcdn.net/jpg/02/34/09/24/360_F_234092401_jv2JZDvES6zocvLxNyVxoMDOGvRzg4rG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.image .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.user-details h2 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+span {
+    font-size: 18px;
+}
+
+.store-button {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    background-color: #2691d9;
+    border: 0;
+    border-radius: 40px;
+    height: 40px;
+    width: 20vw;
+}
+
+.button a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
